@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40">
+  <defs>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D95" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#FF2D95" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#FF69B4" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#FF2D95" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FF2D95" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glowDiv" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .travel { animation: travel 3s linear infinite; }
+    @keyframes travel {
+      0% { transform: translateX(-1200px); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { transform: translateX(1200px); opacity: 0; }
+    }
+    .pulse-dot { animation: pulseDot 2s ease-in-out infinite; }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+  </style>
+
+  <!-- Ligne principale -->
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#divGrad)" stroke-width="2" filter="url(#glowDiv)"/>
+
+  <!-- Losange central -->
+  <polygon points="600,10 610,20 600,30 590,20" fill="#FF69B4" filter="url(#glowDiv)" opacity="0.9"/>
+
+  <!-- Points de part et d'autre -->
+  <circle cx="400" cy="20" r="2" fill="#FF2D95" class="pulse-dot"/>
+  <circle cx="800" cy="20" r="2" fill="#FF2D95" class="pulse-dot" style="animation-delay: 0.5s"/>
+
+  <!-- Petit point qui voyage -->
+  <circle cx="0" cy="20" r="3" fill="#FFB6D9" class="travel" filter="url(#glowDiv)"/>
+</svg>
