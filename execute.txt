@@ -1,0 +1,14 @@
+# 1. Sauvegarder le script corrigé
+$ nano build.sh   # ou vim, code, etc.
+$ chmod +x build.sh
+
+# 2. Valider sans exécuter (recommandé en premier)
+$ ./build.sh --check
+
+# 3. Construire tout
+$ ./build.sh --all
+
+# 4. Ou étape par étape
+$ ./build.sh --test       # sources + tests
+$ ./build.sh --bench      # + graphiques
+$ ./build.sh --package    # + wheel/sdist
