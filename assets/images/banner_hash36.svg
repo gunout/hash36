@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D001A"/>
+      <stop offset="50%" stop-color="#1A0033"/>
+      <stop offset="100%" stop-color="#0D001A"/>
+    </linearGradient>
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2D95"/>
+      <stop offset="50%" stop-color="#FF69B4"/>
+      <stop offset="100%" stop-color="#FFB6D9"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF2D95" stroke-width="0.3" opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <!-- Lignes décoratives néon -->
+  <line x1="0" y1="50" x2="1200" y2="50" stroke="url(#neonGrad)" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="250" x2="1200" y2="250" stroke="url(#neonGrad)" stroke-width="1" opacity="0.4"/>
+
+  <!-- Cercles décoratifs -->
+  <circle cx="100" cy="150" r="60" fill="none" stroke="#FF2D95" stroke-width="1" opacity="0.3"/>
+  <circle cx="1100" cy="150" r="60" fill="none" stroke="#FF69B4" stroke-width="1" opacity="0.3"/>
+  <circle cx="100" cy="150" r="90" fill="none" stroke="#FF2D95" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="1100" cy="150" r="90" fill="none" stroke="#FF69B4" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- Titre principal -->
+  <text x="600" y="130" font-family="Orbitron, monospace" font-size="72" font-weight="900"
+        fill="url(#neonGrad)" text-anchor="middle" filter="url(#glow)" letter-spacing="8">
+    HASH-36
+  </text>
+
+  <!-- Sous-titre -->
+  <text x="600" y="180" font-family="Orbitron, monospace" font-size="20" font-weight="400"
+        fill="#FFB6D9" text-anchor="middle" letter-spacing="6" opacity="0.9">
+    ARGON2ID · PEPPER · ROTATION
+  </text>
+
+  <!-- Ligne sous le sous-titre -->
+  <line x1="350" y1="200" x2="850" y2="200" stroke="url(#neonGrad)" stroke-width="2" opacity="0.8"/>
+
+  <!-- Points animés (CSS) -->
+  <style>
+    .pulse { animation: pulse 2s ease-in-out infinite; }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+    .blink { animation: blink 1.5s step-end infinite; }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <circle cx="530" cy="220" r="4" fill="#FF2D95" filter="url(#glowSoft)" class="pulse"/>
+  <circle cx="570" cy="220" r="4" fill="#FF69B4" filter="url(#glowSoft)" class="pulse" style="animation-delay: 0.3s"/>
+  <circle cx="610" cy="220" r="4" fill="#FFB6D9" filter="url(#glowSoft)" class="pulse" style="animation-delay: 0.6s"/>
+  <circle cx="650" cy="220" r="4" fill="#FF2D95" filter="url(#glowSoft)" class="pulse" style="animation-delay: 0.9s"/>
+  <circle cx="690" cy="220" r="4" fill="#FF69B4" filter="url(#glowSoft)" class="pulse" style="animation-delay: 1.2s"/>
+
+  <!-- Indicateur "SYSTEM ONLINE" -->
+  <text x="600" y="270" font-family="monospace" font-size="12" fill="#FFB6D9" text-anchor="middle"
+        letter-spacing="4" opacity="0.7">
+    ▶ SYSTEM ONLINE <tspan class="blink">_</tspan>
+  </text>
+</svg>
