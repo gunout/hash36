@@ -1,58 +1,97 @@
+<!-- ============================================================ -->
+<!--  HASH-36 — FUTURISTIC NEON ROSE README                       -->
+<!--  Style : gunout / néon rose / SVG animés                     -->
+<!-- ============================================================ -->
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=HASH-36&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&color=10B981&center=true&vCenter=true&width=600&lines=Argon2id+KDF+avec+pepper;Rotation+automatique;GPG+Signed+Commits" alt="Typing SVG" />
+<p align="center">
+  <a href="https://github.com/gunout/hash36">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,13,24&height=200&section=header&text=HASH-36&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=FF2D95&desc=Argon2id%20%7C%20Pepper%20%7C%20Rotation&descAlignY=55&descSize=18&descColor=FFB6D9" alt="HASH-36 Banner" width="100%" />
+  </a>
+</p>
 
-[![PyPI](https://img.shields.io/badge/PyPI-à%20venir-lightgrey?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/hash36/)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Argon2id](https://img.shields.io/badge/Argon2id-RFC%209106-10b981?style=for-the-badge&logo=shield&logoColor=white)](https://www.rfc-editor.org/rfc/rfc9106)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-11%20passed-success?style=for-the-badge&logo=pytest&logoColor=white)](#-tests)
-[![GPG Signed](https://img.shields.io/badge/Commits-GPG%20Signed-2496ED?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)](https://github.com/gunout/hash36/commits/main)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
-<img src="hash36_benchmark.png" alt="Benchmark GPU" width="800">
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=22&pause=800&color=FF2D95&background=0D001A00&center=true&vCenter=true&random=true&width=800&lines=%E2%96%B6+Initializing+crypto+protocol...;%E2%96%B6+Argon2id+KDF+engine...;%E2%96%B6+Pepper+%2B+Domain+Separation...;%E2%96%B6+Rotation+automation...;%E2%96%B6+System+secure.+Welcome." alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/gunout/hash36">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=gunout&repo=hash36&theme=radical&hide_border=true&bg_color=0D001A&title_color=FF2D95&text_color=FFB6D9&icon_color=FF69B4" alt="HASH-36 Repo Card" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
 </div>
 
 ---
 
-## ⚡whoami
+<h2 align="center">⚡ <code>whoami</code></h2>
 
-**HASH-36** est un **schéma de construction** au-dessus d'**Argon2id** (RFC 9106).
-Il n'invente **pas** de cryptographie : il ajoute une **séparation de domaine**, un **pepper** global et une **rotation** automatique des paramètres.
+<div align="center">
 
-- 🔐 **Argon2id** (RFC 9106) — paramètres OWASP 2024 par défaut (`t=3, m=64 MiB, p=4`)
-- 🏷️ **Domain separation** — préfixe `BASE || A1Z26` issu du mot « Hash » (A1Z26=36, BASE=2.1.19.5)
-- 🌶️ **Pepper** global — protège le `tag` HMAC contre un attaquant avec accès DB
-- 🔄 **Rotation** — `check_needs_rehash` + `rehash` + `rehash-all` (migration sans mot de passe)
-- 🖥️ **CLI JSON** — 4 sous-commandes scriptables avec codes de sortie
-- ✅ **Non-régression** — HASH-36 ≡ Argon2id bit-à-bit (8 tests)
+<samp>
+  <span style="color:#FF2D95;">🔐 Argon2id</span> — RFC 9106, paramètres OWASP 2024<br>
+  <span style="color:#FF69B4;">🏷️ Domain Separation</span> — préfixe BASE || A1Z26 (issu du mot « Hash »)<br>
+  <span style="color:#FFB6D9;">🌶️ Pepper</span> — protège le tag HMAC contre un attaquant avec accès DB<br>
+  <span style="color:#FF2D95;">🔄 Rotation</span> — check_needs_rehash + rehash + rehash-all<br>
+  <span style="color:#FF69B4;">🖥️ CLI JSON</span> — 4 sous-commandes scriptables<br>
+  <span style="color:#FFB6D9;">✅ Non-régression</span> — HASH-36 ≡ Argon2id bit-à-bit (8 tests)
+</samp>
+
+</div>
+
+<div align="center">
 
 > ⚠️ **Avertissement** : ne déployez pas HASH-36 en production sans audit de sécurité.
 > Les constantes (`36`, `BASE`, couleur `#c4a47c`) sont **publiques** — elles servent à la séparation de domaine, pas à la sécurité.
 
----
+</div>
 
-## 🛠️tech_stack
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
+<h2 align="center">🛠️ <code>tech_stack</code></h2>
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Argon2](https://img.shields.io/badge/Argon2-10b981?style=flat-square&logo=shield&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![matplotlib](https://img.shields.io/badge/matplotlib-11557c?style=flat-square&logo=python&logoColor=white)
-![setuptools](https://img.shields.io/badge/setuptools-EF7B26?style=flat-square&logo=python&logoColor=white)
-![GPG](https://img.shields.io/badge/GPG-2496ED?style=flat-square&logo=gnuprivacyguard&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10%2B-FF2D95?style=for-the-badge&logo=python&logoColor=white)
+![Argon2](https://img.shields.io/badge/Argon2id-RFC%209106-FF69B4?style=for-the-badge&logo=shield&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-11%20passed-FFB6D9?style=for-the-badge&logo=pytest&logoColor=white)
+![matplotlib](https://img.shields.io/badge/matplotlib-FF2D95?style=for-the-badge&logo=python&logoColor=white)
+![setuptools](https://img.shields.io/badge/setuptools-FF69B4?style=for-the-badge&logo=python&logoColor=white)
+![GPG](https://img.shields.io/badge/GPG-Signed-FFB6D9?style=for-the-badge&logo=gnuprivacyguard&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-FF2D95?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
 </div>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
-## 🚀quick_start
+<h2 align="center">🚀 <code>quick_start</code></h2>
+
+<div align="center">
 
 **Installation** : `pip install hash36`
+
+</div>
 
 **CLI** :
 
@@ -69,29 +108,19 @@ Il n'invente **pas** de cryptographie : il ajoute une **séparation de domaine**
     rec = hash36_argon2id("MonMotDePasse!")          # pepper depuis $HASH36_PEPPER
     assert hash36_verify("MonMotDePasse!", rec)
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
-## 🔐paramètres_owasp
-
-| Paramètre | Minimum | Défaut HASH-36 |
-|-----------|---------|----------------|
-| `t` (time cost) | 2 | **3** |
-| `m` (memory cost) | 19 MiB | **64 MiB** |
-| `p` (parallelism) | 1 | **4** |
-| Sel | 16 octets | **16 octets** |
-| Pepper | 32 octets | **variable d'env** |
-
----
-
-## 📊benchmark
+<h2 align="center">📊 <code>benchmark</code></h2>
 
 <div align="center">
 
-<img src="hash36_benchmark.png" alt="Débit GPU + Coût CPU" width="800">
+<img src="https://raw.githubusercontent.com/gunout/hash36/main/hash36_benchmark.png" alt="Débit GPU + Coût CPU" width="800">
 
 **Facteur bcrypt → Argon2id/HASH-36 sur GPU : ~37 000×**
 
-<img src="hash36_memory.png" alt="Memory-hardness" width="600">
+<img src="https://raw.githubusercontent.com/gunout/hash36/main/hash36_memory.png" alt="Memory-hardness" width="600">
 
 </div>
 
@@ -101,15 +130,31 @@ Il n'invente **pas** de cryptographie : il ajoute une **séparation de domaine**
 | scrypt (N=2¹⁴) | 7 126 H/s | 16 MiB |
 | **Argon2id / HASH-36** | **~5 H/s** | **64 MiB** |
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
-## 🧪tests
+<h2 align="center">🔐 <code>paramètres_owasp</code></h2>
 
-**Tests rapides (11 tests)** : `pytest -v`
+<div align="center">
 
-**Tests de timing (machine calme)** : `pytest -m slow -v -s`
+| Paramètre | Minimum | Défaut HASH-36 |
+|-----------|---------|----------------|
+| `t` (time cost) | 2 | **3** |
+| `m` (memory cost) | 19 MiB | **64 MiB** |
+| `p` (parallelism) | 1 | **4** |
+| Sel | 16 octets | **16 octets** |
+| Pepper | 32 octets | **variable d'env** |
 
-**Couverture** : `pytest --cov=hash36_argon2id --cov-report=term-missing`
+</div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
+<h2 align="center">🧪 <code>tests</code></h2>
+
+<div align="center">
 
 | Test | Ce qu'il valide |
 |------|-----------------|
@@ -121,9 +166,15 @@ Il n'invente **pas** de cryptographie : il ajoute une **séparation de domaine**
 | `test_compare_digest_utilise` | `hmac.compare_digest` statique |
 | `test_hash_json` / `test_verify_fail` | CLI subprocess |
 
----
+</div>
 
-## 🛡️threat_model
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
+
+<h2 align="center">🛡️ <code>threat_model</code></h2>
+
+<div align="center">
 
 | Menace STRIDE | Risque | Contre-mesure |
 |---------------|--------|---------------|
@@ -134,11 +185,13 @@ Il n'invente **pas** de cryptographie : il ajoute une **séparation de domaine**
 | **D**enial of Service | 🟠 Élevé | rate-limiting (inhérent à Argon2id) |
 | **E**levation | ⚪ Hors périmètre | RBAC séparé |
 
-Voir [`docs/threat_model.md`](docs/threat_model.md) pour l'analyse complète.
+</div>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
-## 🏗️architecture
+<h2 align="center">🏗️ <code>architecture</code></h2>
 
 - `hash36_argon2id.py` — cœur (Argon2id + pepper + rotation)
 - `hash36_cli.py` — CLI (hash / verify / rehash / rehash-all)
@@ -151,24 +204,28 @@ Voir [`docs/threat_model.md`](docs/threat_model.md) pour l'analyse complète.
 - `hash36_benchmark.png` — graphique GPU + CPU
 - `hash36_memory.png` — graphique memory-hardness
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
-## 📈github_stats
+<h2 align="center">📈 <code>github_stats</code></h2>
 
 <div align="center">
 
 ![GitHub stars](https://img.shields.io/github/stars/gunout/hash36?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/gunout/hash36?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/gunout/hash36?style=social)
-![GitHub last commit](https://img.shields.io/github/last-commit/gunout/hash36?style=flat-square)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gunout/hash36?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/gunout/hash36?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/gunout/hash36?style=flat-square&color=FF2D95)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/gunout/hash36?style=flat-square&color=FF69B4)
+![GitHub repo size](https://img.shields.io/github/repo-size/gunout/hash36?style=flat-square&color=FFB6D9)
 
 </div>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
-## 📚références
+<h2 align="center">📚 <code>références</code></h2>
 
 - [RFC 9106 — Argon2](https://www.rfc-editor.org/rfc/rfc9106)
 - [RFC 7914 — scrypt](https://www.rfc-editor.org/rfc/rfc7914)
@@ -176,11 +233,21 @@ Voir [`docs/threat_model.md`](docs/threat_model.md) pour l'analyse complète.
 - [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 - [PEP 639 — SPDX license expression](https://peps.python.org/pep-0639/)
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
-## 📄licence
+<h2 align="center">📄 <code>licence</code></h2>
+
+<div align="center">
 
 MIT — voir [`LICENSE`](LICENSE).
+
+</div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+</p>
 
 <div align="center">
 
@@ -189,3 +256,7 @@ MIT — voir [`LICENSE`](LICENSE).
 [![GitHub followers](https://img.shields.io/github/followers/gunout?style=social)](https://github.com/gunout)
 
 </div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/footer_neon.svg" alt="Footer" width="100%" />
+</p>
