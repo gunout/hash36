@@ -6,17 +6,17 @@
 <div align="center">
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <p align="center">
   <a href="https://github.com/gunout/hash36">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,13,24&height=200&section=header&text=HASH-36&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=FF2D95&desc=Argon2id%20%7C%20Pepper%20%7C%20Rotation&descAlignY=55&descSize=18&descColor=FFB6D9" alt="HASH-36 Banner" width="100%" />
+    <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/banner_hash36.svg" alt="HASH-36 Banner" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <p align="center">
@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 </div>
@@ -64,7 +64,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">🛠️ <code>tech_stack</code></h2>
@@ -82,7 +82,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">🚀 <code>quick_start</code></h2>
@@ -109,7 +109,7 @@
     assert hash36_verify("MonMotDePasse!", rec)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">📊 <code>benchmark</code></h2>
@@ -131,7 +131,7 @@
 | **Argon2id / HASH-36** | **~5 H/s** | **64 MiB** |
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">🔐 <code>paramètres_owasp</code></h2>
@@ -149,7 +149,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">🧪 <code>tests</code></h2>
@@ -169,7 +169,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">🛡️ <code>threat_model</code></h2>
@@ -188,7 +188,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">🏗️ <code>architecture</code></h2>
@@ -205,7 +205,7 @@
 - `hash36_memory.png` — graphique memory-hardness
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">📈 <code>github_stats</code></h2>
@@ -222,7 +222,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">📚 <code>références</code></h2>
@@ -234,7 +234,7 @@
 - [PEP 639 — SPDX license expression](https://peps.python.org/pep-0639/)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <h2 align="center">📄 <code>licence</code></h2>
@@ -246,7 +246,7 @@ MIT — voir [`LICENSE`](LICENSE).
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/divider_neon.svg" alt="Divider" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
 </p>
 
 <div align="center">
@@ -258,5 +258,5 @@ MIT — voir [`LICENSE`](LICENSE).
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gunout/gunout/main/assets/images/footer_neon.svg" alt="Footer" width="100%" />
+  <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/footer_hash36.svg" alt="Footer" width="100%" />
 </p>
