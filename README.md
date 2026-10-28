@@ -1,6 +1,7 @@
 <!-- ============================================================ -->
 <!--  HASH-36 — FUTURISTIC NEON ROSE README                       -->
 <!--  Style : gunout / néon rose / SVG animés                     -->
+<!--  Publié sur PyPI : v0.1.0                                    -->
 <!-- ============================================================ -->
 
 <div align="center">
@@ -17,6 +18,22 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/gunout/hash36/main/assets/images/divider_hash36.svg" alt="Divider" />
+</p>
+
+<!-- BADGES PYPI (à jour) -->
+<p align="center">
+  <a href="https://pypi.org/project/hash36/">
+    <img src="https://img.shields.io/pypi/v/hash36?style=for-the-badge&logo=pypi&logoColor=white&color=FF2D95" alt="PyPI version" />
+  </a>
+  <a href="https://pypi.org/project/hash36/">
+    <img src="https://img.shields.io/pypi/dm/hash36?style=for-the-badge&logo=pypi&logoColor=white&color=FF69B4" alt="PyPI downloads" />
+  </a>
+  <a href="https://pypi.org/project/hash36/">
+    <img src="https://img.shields.io/pypi/pyversions/hash36?style=for-the-badge&logo=python&logoColor=white&color=FFB6D9" alt="Python versions" />
+  </a>
+  <a href="https://pypi.org/project/hash36/">
+    <img src="https://img.shields.io/pypi/l/hash36?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=FF2D95" alt="License" />
+  </a>
 </p>
 
 <p align="center">
